@@ -2,6 +2,21 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: aqua;
+  background-color: whitesmoke;
   font-family: "Pangolin", cursive;
+  height: 97vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
 }
